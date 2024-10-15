@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Document Structure</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .toc {
+            background-color: #e3e3e3;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .toc a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#cats">Heading for Cats</a></li>
+            <li><a href="#dogs">Heading for Dogs</a></li>
+            <li><a href="#elephants">Elephants</a></li>
+            <li><a href="#another-section">Another Section</a></li>
+            <li><a href="form.html">Go to Form</a></li>
+        </ul>
+    </div>
+
+    <h1 style="text-align: center; color: #ffac67;">Cats, Dogs, & Elephants</h1>
+    
+    <section id="cats" style="background-color: #b8d0e7;">
+        <h2 style="color: #333;">Heading for Cats</h2>
+        <p style="color: #555;">This is information about cats. Cats are hairy or not. Cats are very demanding.</p>
+        <p style="color: #555;">Many people have cats and these are ways to get a cat.</p>
+    </section>
+
+    <section id="dogs" style="background-color: #fffccc;">
+        <h2 style="color: #333;">Heading for Dogs</h2>
+        <p style="color: #555;">This is information about dogs. Dogs can be big and small. Dogs are very loving.</p>
+        <p style="color: #555;">Many people have dogs and these are ways to get a dog.</p>
+    </section>
+
+    <section id="elephants" style="background-color: #ffc9c3;">
+        <h2 style="color: #333;">Elephants</h2>
+        <p style="color: #555;">Elephants ARE BIG.</p>
+        <p style="color: #555;">Elephants have good memories.</p>
+    </section>
+
+    <section id="another-section" style="background-color: #c3ffd8;">
+        <h2 style="color: #333;">Another Section</h2>
+        <p style="color: #555;">Another Paragraph</p>
+    </section>
+
+</main>
+
+</body>
+</html>
